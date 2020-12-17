@@ -9,7 +9,7 @@ const App = () => {
   const [records, setRecords] = useState([]);
   const [loading, setLoading] = useState(false);
   const [currentPage, setCurrentPage] = useState(1);
-  const [recordsPerPage] = useState(10);
+  const [recordsPerPage] = useState(5);
 
   useEffect(() => {
     const fetchPost = async () => {
